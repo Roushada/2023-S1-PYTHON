@@ -1,7 +1,7 @@
-dict={}
-n1=int(input("total number of elements in dict1:"))
-for i in range(n1):
-    dict[i]=input("enter elements:")
-    print(dict)
-print(sorted(dict.items()))
-print(sorted(dict.items(),key=lambda item:item[1]))
+dict1={3:"nafiya",2:"23",1:"kavya",4:"12"}
+new=sorted(dict1.items())
+d1=dict(new)
+print(d1)
+new=sorted(dict1.items(),reverse=True)
+d2=dict(new)
+print(d2)
