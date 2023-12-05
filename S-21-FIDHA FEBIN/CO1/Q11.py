@@ -1,6 +1,6 @@
-a=10
-b=12
-c=11
+a=int(input("enter 3 values"))
+b=int(input())
+c=int(input())
 if(a>b and a>c):
     print(a,"is largest")
 else:
